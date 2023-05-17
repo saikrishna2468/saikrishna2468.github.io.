@@ -1,0 +1,61 @@
+.aa{
+    width:200px;
+    background-color: aqua;
+    padding:20px;
+    color:black;
+    text-align:center;
+    animation-name: frt;
+    animation-duration: 60s;
+    position: relative;
+    animation-direction: reverse;
+    border-radius:0px 50px;
+    box-shadow: 1px 100px 100px rgb(163, 13, 13);
+}
+@keyframes frt{
+    0%{
+        background-color: aqua;
+        color:black; left:0px; top:0px;
+        border-radius:90px 50px;
+        box-shadow: 1px 100px 100px rgb(9, 206, 16);
+    }
+    10%{
+        background-color: black;
+        color:white; left:300px; top:0px;
+        border-radius:100px 0;
+        box-shadow: 1px 100px 100px rgba(21, 135, 228, 0.537);
+    }
+    20%{
+        background-color:blue;
+        color:black; left:300px; top:500px;
+        box-shadow: 1px 100px 100px rgb(212, 20, 78);
+        border-radius:10% 50px;
+    }
+    30%{
+        background-color: brown;
+        color:white;left:0px; top:500px;
+        box-shadow: 1px 100px 100px rgb(68, 215, 19);
+        border-radius:10%;
+    }
+    40%{
+        background-color: darkcyan;
+        color:black;left:100%; top:500px;
+        box-shadow: 1px 100px 100px rgb(227, 9, 9);
+        border-radius:0pc 100%;
+    }
+    60%{
+        background-color:goldenrod ;
+        color:white;left:0px; top:500px;
+        box-shadow: 1px 100px 100px rgb(6, 130, 184);
+        border-radius:0px 50%;
+    }
+    80%{
+        background-color: dodgerblue;
+        color:black;left:0px; top:0px;
+    }
+    100%{
+        background-color: indigo;
+        color:white;left:0px; top:0px;
+        box-shadow: 1px 100px 100px rgb(163, 13, 13);
+        border-radius:100% 0;
+    }
+}
